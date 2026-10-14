@@ -1,0 +1,448 @@
+body{
+    background-color: rgb(19, 31, 19);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.ok{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(3, 48, 3);
+    padding-inline: 20px;
+    padding-block: 30px;
+    color: floralwhite;
+    text-align: right;
+    
+}
+.logo{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: flex;
+    align-items: flex-start;
+}
+.nav-links{
+    display: flex;
+    gap: 30px;
+
+}
+
+.header-buttons a {
+    text-decoration: none;
+    background-color: greenyellow;
+    padding-inline: 30px;
+    padding-block: 10px;
+    border-radius: 10px;
+    color: black;
+}
+.it{
+    color: rgba(90, 240, 21, 0.664);
+}
+.its{
+    color: rgb(1, 70, 1);
+    font-style: italic;
+    font: weight 1000px;;
+}
+h1{
+    text-align: center;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+}
+p{
+    text-align: center;
+    font-size: medium;
+    color: antiquewhite;
+}
+.btn{
+    background-color: rgb(36, 190, 36);
+    border: ipx solid;
+    padding-block: 10px;
+    padding-inline: 20px;
+    border-radius: 10px;
+    display: block;
+    margin: 0 auto;
+}
+.btn a {
+    font-size: 12px;
+    text-decoration: none;
+    color: black;
+}
+
+.trusted-line{
+    width: 36px;
+    height: 2px;
+    background-color: rgb(79, 130, 4);
+}
+.trusted{
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    font-size: small;
+}
+
+
+.eyebrows{
+    color: rgb(42, 177, 42);
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: small;
+}
+h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.skills{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 850px;
+    margin: 0% auto;
+}
+.skill{
+    background-color:  rgb(22, 136, 22);
+    border: none;
+    padding: 10px 25px;
+    border-radius: 5px;
+    font-size: 11px;
+    cursor: pouinter;  
+}
+.how-we-work{
+    margin: 0 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.heading {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+}
+
+.heading h2{
+    color: whitesmoke;
+    font-size: 24px;
+    line-height: 1.1;
+}
+.grow{
+    padding-top: 35px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.grow p{
+    color: whitesmoke;
+    font-size: 24px;
+    line-height: 1.5;
+}
+
+.grow a {
+    background-color: greenyellow;
+    padding-inline: 20px;
+    padding-block: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: black;
+}
+
+.advantages{
+    margin: 70px auto 0;
+    max-width: 900px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    border-top: 1px solid;
+    border-left: 1px solid;
+    border-bottom: 1px solid;
+    
+}
+.advantage{
+    padding: 32px 28px;
+    /* margin-bottom: 0px; */
+    border: 1px solid;
+}
+.advantages h3{
+    font-size: 18px;
+    line-height: 1.55;
+    margin: 0;
+}
+
+.heading{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.heading span{
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    letter-spacing: 1px;
+}
+.heading h1{
+    font-size: 32px;
+    line-height: 1.2;
+    margin-top: 12px;
+    margin-bottom: 18px;
+}
+.heading p{
+    font-size: 13px;
+    line-height: 1.5;
+    color: white;
+
+}
+
+.Testimonial-section {
+    text-align: center;
+}
+
+.testimonial-card {
+    display: flex;
+    justify-content: center;
+    gap: 400px;
+    background-color: whitesmoke;
+    color: black;
+    margin: 0 150px;
+    padding: 50px;
+    border-radius: 20px;
+}
+
+.testimonial-card p {
+    color: black;
+}
+
+.testimonial-img {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.pricing-section{
+    margin: 0 150px;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    padding: 60px 20px;
+}
+.pricing-container{
+    width: 100%;
+    max-width: 1100px;
+
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap: 20px;
+}
+.pricing-card{
+    background-color: green;
+    border: 1px solid;
+    border-radius: 9px;
+    padding: 24px 25px;
+    min-height: 490px;
+    display: flex;
+    flex-direction: column;
+}
+.card-heading{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+.card-heading h2{
+    font-size: 20px;
+    font-weight: 700px;
+}
+.badge-popular{
+    font-weight: 10px;
+    padding: 7px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    background-color: rgb(13, 198, 13);
+    color: black;
+}
+.badge-best{
+background-color: white;
+font-weight: 10px;
+border-radius:5px ;
+padding: 7px 10px;
+ white-space: nowrap;
+}
+.description{
+    color: white;
+    font-size: 10px;
+    line-height: 1.5;
+    margin-top: 20px;
+    max-width: 230px;
+}
+.price{
+    margin-top: 25px;
+    margin-bottom: 18px;
+    border-bottom: 1px solid;
+}
+.price span{
+    color: rgb(14, 188, 14);
+    font-size: 28px;
+    font-weight: bold;
+}
+.small-text{
+    color: white;
+    font-size: 15px;
+    margin-top: 7px;
+}
+hr{
+    border: none;
+    border-top: 1px solid;
+    margin-top: 18px;
+}
+ul{
+    list-style: none;
+    margin-top: 18px;
+}
+li{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 12px;
+    display: flex;
+    align-items: center;
+}
+li::before{
+    content:"+";
+    font-size: 17px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+.buttons{
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+   
+}
+/* .box{
+     width: 100px;
+    height: 34px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 10px;
+    color: antiquewhite;
+} */
+   .call-btn{
+width: 100px;
+    height: 34px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 13px;
+    color: antiquewhite;
+    text-decoration:none;
+    display: inline-block;
+    color: white;
+   }
+
+.call-btn:hover{
+background-color: aquamarine;
+color:white;
+border: none;
+font-weight: bold;
+text-decoration: none;
+}
+.buy-btn
+{
+    background-color: green;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+.buy-btn:hover{
+    background-color: aqua;
+}
+.articles{
+    background-color: rgb(3, 74, 3);
+    padding: 70px 20px;
+    width: 100%;
+   
+}
+.article-heading{
+    text-align: center;
+    margin-bottom: 55px;
+    /* display: grid;
+    grid-template-columns: repeat(2, 1fr); */
+}
+.article-heading p{
+    font-size: 15px;
+    color: white;
+    margin-bottom: 15px;
+}
+.article-heading h2{
+    font-size: 12px;
+    color: whitesmoke;
+}
+.article-grid{
+    max-width: 1100px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+.article-card{
+    display: flex;
+    align-items: center;
+    background-color: rgb(4, 67, 4);
+    border: 1px solid;
+    border-radius: 10px;
+    overflow: hidden;
+    min-height: 170px;
+      margin: auto;
+    width: 100%;
+       
+}
+.article-card img{
+    width: 40%;
+    height: 170px;
+    object-fit: cover;
+    display: ;
+     max-width: 1100px;
+    margin: auto;
+}
+.article-content{
+    padding: 20px;
+    flex: 1;
+}
+.article-content span{
+    color: darkgreen;
+    font-size: 10px;
+    display: block;
+    margin-bottom: 12px;
+}
+ .article-content h3{
+    font-size: 18px;
+    line-height: 1.4;
+    color: white;
+    margin-bottom: 10px;
+ }
+ .article-content p{
+    font-size: 12px;
+    line-height: 1.5;
+    color: gray;
+ }
+ .load-more{
+    text-align: center;
+    margin-top: 45px;
+ }
+ .load-more{
+    background-color: transparent;
+    color: white;
+    border: 1px solid darkgreen;
+    border-radius: 8px;
+    padding: 15px 45px;
+    font-size: 11px;
+    cursor: pointer;
+    transition: 0,3s;
+ }
+ .load-more:hover{
+    background-color: rgb(6, 114, 6);
+    color: black;
+ }
